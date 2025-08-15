@@ -1,0 +1,1601 @@
+/* ========================================== Global Setting =======================================================*/
+@font-face {
+  font-family: 'AvenirNextLTPro';
+  src: url('../fonts/AvenirNextLTPro-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+
+.navbar-expan -lg .navbar-nav .nav-link {
+  color: white;
+}
+
+.btn-primary {
+  background: linear-gradient(to right, #fb515e, #fb684f);
+  color: white;
+  padding: 15px 45px;
+  text-decoration: none;
+  border-radius: 5px;
+  border: none;
+  font-size: 14px;
+}
+
+
+.nav-text {
+  color: white;
+}
+
+.custom-section {
+  margin: 60px 160px 0px 160px;
+}
+
+
+
+.section-heading {
+  font-family: AvenirNextLTPro;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+.card h5 {
+  color: #161e6d;
+}
+
+/* ========================================== Header - Section =======================================================*/
+
+
+.header_bg {
+  right: 0;
+  top: 0;
+  width: 60vw;
+  height: 45vw;
+  position: absolute;
+  z-index: -1;
+}
+
+.header_bg img {
+  width: 100%;
+  height: 100%;
+
+}
+
+.navbar-nav li a:hover {
+
+  border-bottom: 1px solid #fb535c;
+  border-width: 1%;
+  text-transform: uppercase;
+}
+
+.sign-up {
+  font-size: 12px;
+
+}
+
+
+/* ========================================== Hero - Section =======================================================*/
+
+.hero-section {
+  /*padding: 255px 0;*/
+  font-family: AvenirNextLTPro;
+  font-size: 50px;
+  position: relative;
+  margin-top: 7%;
+  /*padding: 120px 0;*/
+  overflow: hidden;
+
+}
+
+.hero-heading {
+  font-size: 50px;
+  font-weight: 500;
+  color: #161e6d;
+  margin-bottom: 20px;
+}
+
+.hero-text {
+  font-size: 17px;
+  font-family: AvenirNextLTPro;
+  color: #555;
+}
+
+
+.get-started {
+  padding: 15px 40px;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+
+
+
+/* ========================================== Section - 01 =======================================================*/
+
+.logo-item span,
+i {
+  color: #5b6199;
+}
+
+.logo-item span {
+  font-size: 14px;
+  font-family: AvenirNextLTPro;
+}
+
+.section-01 {
+  padding: 60px 0;
+  text-align: center;
+  padding-top: 15%;
+}
+
+.section-01 h1 {
+  color: #161e6d;
+  font-size: 45px;
+}
+
+
+
+.section-03 h1 {
+  color: #161e6d;
+  font-size: 45px;
+}
+
+.section-03 p {
+  font-size: 25px;
+  color: #52585b;
+}
+
+
+
+/* ========================================== Section-02 =======================================================*/
+
+.section-02 {
+  padding-top: 0%;
+}
+
+.tall-card {
+  min-height: 500px;
+}
+
+/* HOVER EFFECT ON TALL _ CARD */
+.card.tall-card:hover {
+  background:
+    radial-gradient(circle at top right,
+      rgba(255, 255, 255, 0.05) 0%,
+      rgba(255, 255, 255, 0.05) 75%,
+      transparent 75%,
+      transparent 100%),
+
+    radial-gradient(circle at top right,
+      rgba(255, 255, 255, 0.05) 0%,
+      rgba(255, 255, 255, 0.05) 60%,
+      transparent 60%,
+      transparent 100%),
+
+    radial-gradient(circle at top right,
+      rgba(255, 255, 255, 0.05) 0%,
+      rgba(255, 255, 255, 0.05) 45%,
+      transparent 45%,
+      transparent 100%),
+
+    radial-gradient(circle at top right,
+      rgba(255, 255, 255, 0.05) 0%,
+      rgba(255, 255, 255, 0.05) 30%,
+      transparent 30%,
+      transparent 100%),
+
+    radial-gradient(circle at top right,
+      rgba(255, 255, 255, 0.05) 0%,
+      rgba(255, 255, 255, 0.05) 15%,
+      transparent 15%,
+      transparent 100%),
+
+    radial-gradient(circle at top right,
+      rgba(255, 255, 255, 0.05) 0%,
+      rgba(255, 255, 255, 0.05) 7%,
+      transparent 7%,
+      transparent 100%),
+
+    linear-gradient(135deg, #5da3f2, #4f61e5);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card.tall-card:hover .card-title,
+.card.tall-card:hover .card-text,
+.card.tall-card:hover .icon-02,
+.card.tall-card:hover .card-img {
+  color: white;
+
+}
+
+.card.tall-card:hover .card-img {
+  filter: grayscale(100%) brightness(200%)
+}
+
+.section-2-img {
+  width: 33%;
+  height: 33%;
+  padding-left: 10%;
+}
+
+/* ========================================== Section-03 =======================================================*/
+
+.section-03 {
+  text-align: center;
+  background-image: url(../Img/Bg-Section-4.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  padding-top: 300px;
+  padding-bottom: 80px;
+  height: 1200px;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+
+
+
+/* ========================================== Section-04 =======================================================*/
+
+.section-04-text {
+  padding-left: 15%;
+}
+
+
+
+.section-4 h1 {
+  font-size: 40px;
+  color: #161e6d;
+  font-weight: normal;
+}
+
+/*Section-04 - bg */
+
+.parent {
+  position: relative;
+ 
+}
+
+
+.section-media {
+  position: absolute;
+  width: 742px;
+  height: 650px;
+  z-index: -1;
+  left: -145px;
+  top: -100px;
+}
+
+.section-media img {
+  width: 100%;
+  height: 100%;
+}
+
+.child {
+  position: absolute;
+  /* left: 115px;
+    top: 85px; */
+}
+
+
+.btn-learnmore {
+  padding: 15px 40px;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: AvenirNextLTPro;
+}
+
+
+
+
+/* ========================================== Section-05 =======================================================*/
+
+.section-5 {
+  height: 750px;
+  margin-top: 15%;
+}
+
+.section-05-bg {
+  max-width: 100%;
+  background-position: left;
+  /* margin-left: 34%; */
+
+}
+
+
+.section-5 h1 {
+  font-size: 40px;
+  color: #161e6d;
+  font-weight: normal;
+}
+
+/*Section-05 - bg */
+
+.section-05-bg {
+  position: absolute;
+ 
+  z-index: -1;
+  right: 500px;
+
+}
+
+.section-05-img {
+  position: relative;
+  top: 0;
+  right: 0;
+  z-index: 2;
+
+}
+
+.section5-media {
+  position: absolute;
+  width: 742px;
+  height: 650px;
+  z-index: -1;
+  right: -650px;
+  top: -90px;
+}
+
+.section5-media img {
+  width: 100%;
+  height: 100%;
+}
+
+
+
+/* ========================================== Section-06 =======================================================*/
+
+.section-6 {
+  display: flex;
+  flex-wrap: wrap;
+ 
+  margin-top: 10%;
+  margin-bottom: 10%;
+  
+}
+
+
+
+.section-6-bg {
+  position: absolute;
+  width: 1000px;
+  height: 1000px;
+  z-index: -1;
+  left: -160px;
+  top: -200px;
+}
+
+.section-6-bg img {
+  width: 100%;
+  height: 100%;
+}
+
+.section-6-text p {
+  font-size: 20px;
+  font-family: AvenirNextLTPro;
+}
+
+.section-6-text h1 {
+  font-family: AvenirNextLTPro;
+  font-size: 45px;
+  font-weight: 500;
+}
+
+.btn-seemore {
+  font-family: AvenirNextLTPro;
+  text-transform: uppercase;
+  font-size: 14px;
+  padding: 15px 45px;
+}
+
+
+.custom-card-01,
+.custom-card-02,
+.custom-card-03,
+.custom-card-04 {
+  border-radius: 0;
+  box-shadow: 1px #52585b solid;
+  border: none;
+
+}
+
+
+
+
+
+
+/* ========================================== Section-07 =======================================================*/
+
+.section-7 {
+  text-align: center;
+  margin-top: 0%;
+
+}
+
+.section-7 p {
+  font-size: 18px;
+  font-family: AvenirNextLTPro;
+  color: #52585b;
+}
+
+.section-7 h1 {
+  font-weight: 400;
+  color: #161e6d;
+  font-family: AvenirNextLTPro;
+}
+
+.cerd span i {
+  color: #52585b;
+}
+
+.cerd span {
+  color: #52585b;
+}
+
+.card-title {
+  font-size: 23px;
+  font-weight: 400;
+}
+
+.seemore-btn {
+  padding: 15px 30px;
+  color: #fb684f;
+}
+
+
+
+/* ========================================== Section-08 =======================================================*/
+
+
+.section-8 {
+  background: linear-gradient(to right, #2ecaf0, #5258fc);
+  padding: 100px 0;
+
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-top: 10%;
+}
+
+.section-8-items {
+
+  z-index: 2;
+  position: relative;
+  width: 40%;
+}
+
+.Section-8-text,
+.Section-8-btn {
+  position: relative;
+  z-index: 2;
+}
+
+.Section-8-btn {
+  font-family: AvenirNextLTPro;
+  font-size: 14px;
+}
+
+.Section-8-text h1 {
+  color: #161e6d;
+  /* font-size: 45px;
+   font-weight: 600; */
+  font-family: AvenirNextLTPro;
+}
+
+.Section-8-text h6 {
+  /* font-size: 25px;
+  font-weight: 100; */
+  color: #52585b;
+  font-family: AvenirNextLTPro;
+}
+
+.bg-section8 {
+  position: absolute;
+  z-index: 1;
+  filter: drop-shadow(0px 1px 1px rgba(0, 0, 0, 0.3));
+
+
+}
+
+
+
+
+
+/* ========================================== Footer - Section =======================================================*/
+
+
+.footer-text-p {
+  margin-top: 5%;
+}
+
+.footer-logo-info i {
+  margin-right: 2%;
+}
+
+
+
+.footer {
+  background: linear-gradient(to right, #2ecaf0, #5258fc);
+  float: left;
+  padding-left: 4%;
+  padding-right: 5%;
+  padding-bottom: 2%;
+  position: relative;
+  width: 100%;
+  z-index: 1;
+}
+
+
+.back-to-top{
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fb684f;
+  font-size: 25px;
+  z-index: 2;
+  border-radius: 0.5rem;
+  padding: 7px 15px;
+  transition: 0.2s ease-out;
+}
+.back-to-top i{
+  color: white;
+}
+.back-to-top:hover{
+  background-color: #fb515e;
+
+}
+ .back-to-top:hover i{
+   transform: translateY(-10px);
+ 
+}
+/*----------------  ----------------------------------------------------------------------------------------------------------------------------------------------------  ---------------------------*/
+/*----------------  ----------------------------------------------------------------------------------------------------------------------------------------------------  ---------------------------*/
+
+
+/* ========================================== Extra Settings =======================================================*/
+/*----------------  ----------------------------------------------------------------------------------------------------------------------------------------------------  ---------------------------*/
+
+body,
+html {
+  position: relative;
+  overflow-x: hidden;
+  scroll-behavior:smooth !important;
+
+}
+
+
+@media (max-width: 1600px) {
+
+
+  .header_bg {
+    width: 57vw;
+    height: 52vw;
+  }
+
+
+
+
+
+  /* =================================================================================== */
+
+  .section-8 {
+    margin-top: 20%;
+  }
+
+  .bg-section8 {
+    width: 80%;
+  }
+
+
+
+  .section-8-items {
+    width: 69%;
+  }
+
+
+}
+
+
+@media (max-width: 1400px) {
+
+  .header_bg {
+    width: 60vw;
+    height: 52vw;
+  }
+
+  .header-menu .nav-link {
+    font-size: 13px;
+
+  }
+
+  .nav-text {
+    width: 100%;
+  }
+
+  .sign-up {
+    font-size: 10px;
+    padding: 7px 23px;
+  }
+
+
+  /* =================================================================================== */
+
+  .hero-text {
+    font-size: 12px;
+  }
+
+  .hero-heading {
+    font-size: 35px;
+  }
+
+  .get-started {
+    font-size: 10px;
+  }
+
+  /* =================================================================================== */
+
+
+  .section-01 h1 {
+    font-size: 30px;
+  }
+
+  /* =================================================================================== */
+
+  .section-media {
+    position: absolute;
+    width: 649px;
+    height: 620px;
+  }
+
+  /* =================================================================================== */
+
+  .section5-media {
+    width: 650px;
+    height: 600px;
+  }
+
+
+
+  /* =================================================================================== */
+  .section-6-text h1 {
+    font-size: 35px;
+  }
+
+  .section-6-text p {
+    font-size: 15px;
+  }
+
+
+  /* =================================================================================== */
+
+  .section-8 {
+    margin-top: 20%;
+  }
+
+
+
+  .Section-8-text {
+    padding-top: 30px;
+  }
+
+  .Section-8-btn {
+    padding-top: 15px;
+  }
+
+  .section-8-items {
+    width: 69%;
+  }
+
+
+  .bg-section8 {
+    height: 115%;
+    width: 80%;
+  }
+
+}
+
+
+/*  
+
+.footer{
+  padding-top: 5%;
+}
+}
+
+
+
+/*----------------  ----------------------------------------------------------------------------------------------------------------------------------------------------  ---------------------------*/
+/*----------------  ----------------------------------------------------------------------------------------------------------------------------------------------------  ---------------------------*/
+/*----------------  ----------------------------------------------------------------------------------------------------------------------------------------------------  ---------------------------*/
+/*----------------  ----------------------------------------------------------------------------------------------------------------------------------------------------  ---------------------------*/
+/*----------------  ----------------------------------------------------------------------------------------------------------------------------------------------------  ---------------------------*/
+@media (max-width: 320px) {
+  
+
+}
+
+
+@media (max-width: 575px) {
+
+
+  /*---------------- Section - 01 ---------------------------*/
+
+  .custom-section {
+    margin: 0;
+    padding-left: 5%;
+
+  }
+
+  .nav-menu {
+    float: right;
+    padding-left: 10%;
+  }
+
+  .logo {
+    max-height: 20px;
+    height: 20px;
+    padding: 0px;
+    padding-right: 1px;
+    margin: 0
+  }
+
+  .logo-item span {
+    font-size: 10px;
+  }
+
+  .header_bg img {
+    width: 100%;
+    height: 151%;
+  }
+
+  .about {
+    margin-right: 0;
+  }
+
+ 
+
+  .logo {
+    margin-right: 1rem !important;
+
+  }
+
+  #collapsibleNavbar {
+    position: absolute;
+    top: 100%;
+    /* navbar ke neeche start hoga */
+    left: 0;
+    width: 100%;
+    background: linear-gradient(to right, #5da3f2, #4f61e5);
+    z-index: 9999;
+  }
+
+  /*----------------------------------------------------------- Hero - Section  ---------------------------------------*/
+
+
+
+  .hero-section-text {
+    margin-top: 5%;
+  }
+
+
+  .hero-section-text .btn {
+    margin-top: 5%;
+    padding: 5px 45px;
+    font-size: 8px;
+    font-family: AvenirNextLTPro;
+  }
+
+
+  .hero-section-img {
+    margin-top: -25%;
+  }
+
+  .hero-section h1 {
+    font-size: 20px;
+  }
+
+  .hero-heading {
+    font-size: 30px;
+    margin-bottom: 0;
+  }
+
+  .get-started {
+    padding: 7px 20px;
+    font-size: 10px;
+  }
+
+  .hero-text {
+    font-size: 8px;
+  }
+
+  p {
+    margin-top: 10px;
+    margin-bottom: -2rem;
+  }
+
+  .section-01 h1 {
+
+    font-size: 20px;
+  }
+
+  .section-6 {
+    padding-left: 0%;
+  }
+
+  .section-04-text {
+    padding-left: 0%;
+  }
+
+
+
+
+
+  /*---------------- Section - 02 ---------------------------*/
+
+
+  .section-2-img {
+    width: 56%;
+    height: 20%;
+    padding-left: 37%;
+  }
+
+  .card {
+    margin-bottom: 5%;
+  }
+
+  .card-body {
+    margin-top: 0%;
+  }
+
+  .card-title {
+    font-size: 15px;
+    text-align: center;
+  }
+
+  .card-text {
+    font-size: 12px;
+  }
+
+  /*---------------- Section - 03 ---------------------------*/
+
+  .section-03 {
+    margin-top: 15%;
+    padding-top: 50px;
+    height: 320px;
+
+
+  }
+
+  .section-03 h1 {
+    font-size: 20px;
+  }
+
+  .section-03 p {
+    font-size: 11px;
+    margin-top: -40px;
+  }
+
+  .logo-img {
+    height: 80px;
+    width: 100px;
+    margin-top: -30px;
+  }
+
+
+  /*---------------- Section - 04 ---------------------------*/
+
+  .fg-img {
+    width: 375px;
+    height: 350px;
+    padding-left: 10%;
+    padding-bottom: 4%;
+  }
+
+  .bg-img {
+    width: 375px;
+    height: 350px;
+    margin-left: 0;
+  }
+
+  .section-4 h1 {
+    font-size: 25px;
+    text-align: center;
+  }
+
+  .section-4 p {
+    font-size: 12px;
+    padding-top: 0px;
+  }
+
+  .btn-learnmore {
+    padding: 7px 45px;
+    font-size: 10px;
+    text-align: center;
+  }
+
+  /*---------------- Section - 05 ---------------------------*/
+
+
+
+  .section-5 h1 {
+    font-size: 25px;
+    text-align: center;
+
+  }
+
+  .section-5 p {
+    font-size: 12px;
+    padding-top: 0px;
+  }
+
+
+
+  .section-05-img {
+    width: 375px;
+    height: 350px;
+  }
+
+  .section-05-bg {
+    width: 375px;
+    height: 386px;
+    padding: 0 0 0 0;
+    margin: 320px 20px 0 54px;
+  }
+
+
+
+
+
+
+  /*---------------- Section - 06 ---------------------------*/
+
+  .section-6-text p {
+    font-size: 12px;
+  }
+
+  .section-6-text h1 {
+    font-size: 20px;
+  }
+
+  .section-6-bg {
+
+    margin-left: -5%;
+  }
+
+  .btn-seemore {
+    font-size: 7px;
+    padding: 7px 45px;
+  }
+
+
+  .card-01 {
+    border-radius: 0;
+
+  }
+
+
+
+  .card-02 {
+    border-radius: 0;
+
+  }
+
+
+  .card-03 {
+    border-radius: 0;
+    
+  }
+
+  .card-04 {
+    border-radius: 0;
+   
+  }
+
+
+
+  .img-icon {
+    padding-top: 10%;
+    font-size: 15px;
+  }
+
+
+  /*---------------- Section - 07 ---------------------------*/
+
+
+  .section-7 {
+    padding-top: 10%;
+  }
+
+  .section-7 h1 {
+    font-size: 20px;
+  }
+
+  .section-7 p {
+    font-size: 13px;
+  }
+
+  .card-img-top {
+    height: 200px;
+  }
+
+  /*---------------- Section - 08 ---------------------------*/
+
+  .section-8 {
+    padding-bottom: 0;
+  }
+
+  .Section-8-text h6 {
+    font-size: 16px;
+  }
+
+  .Section-8-text h1 {
+    font-size: 20px;
+  }
+
+  .section-8-btn {
+    padding: 7px 20px;
+    font-size: 10px;
+    margin-left: 30%;
+    margin-top: -25%;
+  }
+
+  .section-8 .Bg-white {
+
+    --p: 65px;
+    height: 113px;
+    padding: 0px 0px;
+    border-radius: 10px;
+    border-color: #52585b;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.1);
+    max-width: 1500px;
+    width: 90%;
+    margin-top: -36%;
+
+  }
+
+  .section-8-items {
+    width: 80%;
+  }
+
+  .bg-section8 {
+    height: 100%;
+    width: 87%;
+
+  }
+
+
+  .section-8-btn {
+    margin-bottom: -10%;
+  }
+
+  /*---------------- Footer - Section ---------------------------*/
+
+  .footer-text-p {
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+
+  .footer-logo-info {
+    margin-bottom: 5%;
+  }
+
+  .footer-logo-info i {
+    margin-right: 5%;
+  }
+
+  .footer-end small {
+    margin-top: 5%;
+  }
+
+  .footer-icon {
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+  }
+
+  .footer-logo-info p {
+    font-size: 13px;
+  }
+
+  .footer-menu a {
+    font-size: 13px;
+  }
+
+
+
+}
+
+@media (min-width: 767.9px) and (max-width: 991.98px) {
+
+
+
+
+  /*---------------- Header - Section ---------------------------*/
+
+  .nav-link {
+    font-size: 10px;
+  }
+
+  .nav-item .btn {
+    font-size: 8px;
+    padding: 7px 15px;
+  }
+
+  .nav-menu {
+
+    padding-left: 0%;
+  }
+
+  .logo {
+    margin-right: 1rem !important;
+
+  }
+
+  .header_bg {
+    right: 0;
+    top: 0;
+    width: 69vw;
+    height: 38vw;
+    position: absolute;
+    z-index: -1;
+  }
+
+
+  /*---------------- Hero - Section ---------------------------*/
+  .hero-section-img {
+    margin-top: 0%;
+  }
+
+
+  .custom-section {
+    margin: 0;
+    padding-left: 5%;
+
+  }
+
+  .nav-menu {
+    float: right;
+
+  }
+
+  .logo {
+    max-height: 20px;
+    height: 20px;
+    padding: 0px;
+    padding-right: 1px;
+    margin: 0
+  }
+
+  .logo-item span {
+    font-size: 10px;
+  }
+
+  .header_bg img {
+    width: 100%;
+    height: 151%;
+  }
+
+  .about {
+    margin-right: 0;
+  }
+
+  .about img {
+    /* width: 50%;
+        height: 100%; */
+    padding: 0px 0px 0px 0px;
+    margin-left: -18%;
+    margin-top: -1%;
+  }
+
+
+  .logo {
+    margin-right: 1rem !important;
+
+  }
+
+  /*---------------- Hero - Section  ---------------------------*/
+  .hero-section-text {
+    margin-top: 5%;
+  }
+
+
+  .hero-section-text .btn {
+    margin-top: 5%;
+    padding: 5px 45px;
+    font-size: 8px;
+    font-family: AvenirNextLTPro;
+  }
+
+
+  .hero-section-img {
+    margin-top: 5%;
+  }
+
+  .hero-section h1 {
+    font-size: 20px;
+  }
+
+  .hero-heading {
+    font-size: 30px;
+    margin-bottom: 0;
+  }
+
+  .get-started {
+    padding: 7px 20px;
+    font-size: 10px;
+  }
+
+  .hero-text {
+    font-size: 8px;
+  }
+
+  p {
+    margin-top: 10px;
+    margin-bottom: -2rem;
+  }
+
+  .section-01 h1 {
+
+    font-size: 20px;
+  }
+
+  .section-6 {
+    padding-left: 0%;
+  }
+
+  .section-04-text {
+    padding-left: 0%;
+  }
+
+
+
+
+
+  /*---------------- Section - 02 ---------------------------*/
+
+
+  .img {
+    width: 56%;
+    height: 20%;
+    padding-left: 37%;
+  }
+
+  .card-body {
+    margin-top: 0%;
+  }
+
+  .card-title {
+    font-size: 15px;
+    text-align: center;
+  }
+
+  .card-text {
+    font-size: 12px;
+  }
+
+  /*---------------- Section - 03 ---------------------------*/
+
+  .section-03 {
+    margin-top: 15%;
+    padding-top: 149px;
+    height: 570px;
+  }
+
+  .section-03 h1 {
+    font-size: 20px;
+  }
+
+  .section-03 p {
+    font-size: 11px;
+    margin-top: -40px;
+  }
+
+  .logo-img {
+    height: 80px;
+    width: 100px;
+    margin-top: -30px;
+  }
+
+
+  /*---------------- Section - 04 ---------------------------*/
+
+  .fg-img {
+    width: 375px;
+    height: 350px;
+    padding-left: 10%;
+    padding-bottom: 4%;
+  }
+
+  .bg-img {
+    width: 375px;
+    height: 350px;
+    margin-left: 0;
+  }
+
+  .section-4 h1 {
+    font-size: 25px;
+    text-align: center;
+  }
+
+  .section-4 p {
+    font-size: 12px;
+    padding-top: 0px;
+  }
+
+  .btn-learnmore {
+    padding: 7px 45px;
+    font-size: 10px;
+    text-align: center;
+  }
+
+  .section-media {
+    left: -25px;
+    top: -36px;
+  }
+
+  .section-media {
+    position: absolute;
+    width: 357px;
+    height: 402px;
+  }
+
+  /*---------------- Section - 05 ---------------------------*/
+  .section-5 {
+    height: 477px;
+    margin-top: 10%;
+  }
+
+  .section-5 h1 {
+    font-size: 25px;
+    text-align: center;
+
+  }
+
+  .section-5 p {
+    font-size: 12px;
+    padding-top: 0px;
+  }
+
+
+
+  .section-05-img {
+    width: 375px;
+    height: 350px;
+  }
+
+  .section-05-bg {
+    width: 375px;
+    height: 386px;
+    padding: 0 0 0 0;
+    margin: 320px 20px 0 54px;
+  }
+
+  .section5-media {
+    position: absolute;
+    width: 742px;
+    height: 650px;
+    z-index: -1;
+    right: -542px;
+    top: -340px;
+  }
+
+  .section5-media {
+    width: 344px;
+    height: 389px;
+  }
+
+
+
+  /*---------------- Section - 06 ---------------------------*/
+
+  .section-6-text p {
+    font-size: 12px;
+  }
+
+  .section-6-text h1 {
+    font-size: 20px;
+  }
+
+  .section-6-bg {
+
+    margin-left: -5%;
+  }
+
+  .btn-seemore {
+    font-size: 7px;
+    padding: 7px 45px;
+  }
+
+
+  .card-01 {
+    border-radius: 0;}
+  
+
+  /*---------------- Section - 07 ---------------------------*/
+
+
+
+
+  .section-7 h1 {
+    font-size: 30px;
+  }
+
+  .section-7 p {
+    font-size: 13px;
+  }
+
+  .card-img-top {
+    height: 200px;
+  }
+
+  .card-body span {
+    font-size: 14px;
+  }
+
+  /*---------------- Section - 08 ---------------------------*/
+
+  .section-8 {
+    padding-bottom: 0;
+    margin-top: 10%;
+  }
+
+
+  .Section-8-text h6 {
+    font-size: 16px;
+  }
+
+  .Section-8-text h1 {
+    font-size: 20px;
+  }
+
+  .section-8-btn {
+    padding: 7px 20px;
+    font-size: 10px;
+
+  }
+
+
+  .section-8-items {
+    width: 78%;
+  }
+
+  /*---------------- Footer - Section ---------------------------*/
+
+  .footer-text-p {
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+
+  .footer-logo-info {
+    margin-bottom: 5%;
+  }
+
+  .footer-logo-info i {
+    margin-right: 5%;
+  }
+
+  .footer-end small {
+    margin-top: 5%;
+  }
+
+  .footer-icon {
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+  }
+
+}
+
+
+
+
+
+
+
+
+/* On tablets and smaller screens */
+@media (max-width: 768px) {
+  .tall-card {
+    min-height: 400px;
+  }
+}
+
+/* On very small mobile screens */
+
+
+@media (max-width: 480px) {
+  .tall-card {
+    min-height: 300px;
+  }
+
+  .Section-8-text {
+    padding-top: 0px;
+  }
+
+  .bg-section8 {
+    width: 95%;
+  }
+
+  .section-8-items {
+    width: 89%;
+  }
+
+  .section-01 {
+    padding-top: 21%;
+  }
+
+  .section-01 h1 {
+    font-size: 22px;
+  }
+
+  .header_bg {
+    width: 56vw;
+    height: 51vw;
+  }
+
+  .logo-img {
+    height: 40px;
+    width: 40px;
+    margin-top: -39px;
+  }
+
+  .section-3-text h1 {
+    font-size: 15px;
+  }
+
+  .section-03 p {
+    font-size: 9px;
+  }
+
+  /* ===========================================================================================================*/
+
+
+  .section-media {
+    width: 366px;
+    height: 386px;
+  }
+
+  .section-media {
+    left: 0px;
+    top: -34px;
+  }
+
+  .section5-media {
+    width: 390px;
+    height: 392px;
+  }
+
+  .section5-media {
+    right: -523px;
+    top: -40px;
+  }
+
+
+
+  .section-6-bg {
+    position: absolute;
+    width: 435px;
+    height: 800px;
+    z-index: -1;
+    left: 9px;
+    top: -80px;
+  }
+
+  .section-6-text p {
+    font-size: 10px;
+  }
+
+  .section-6-text h1 {
+    font-size: 25px;
+  }
+
+}
