@@ -218,7 +218,7 @@ i {
 }
 
 .section-2-img {
-  width: 33%;
+  width: 20%;
   height: 33%;
   padding-left: 10%;
 }
@@ -1469,7 +1469,8 @@ html {
 
 
   .card-01 {
-    border-radius: 0;}
+    border-radius: 0;
+  }
   
 
   /*---------------- Section - 07 ---------------------------*/
@@ -1563,6 +1564,8 @@ html {
 
 
 @media (max-width: 480px) {
+
+
  .tall-card {
         min-height: 300px;
         align-items: center;
@@ -1720,7 +1723,7 @@ html {
     position: relative;
     top: 15px;
     }
-        .section-05-img {
+    .section-05-img {
         width: 350px;
         height: 300px;
     }
