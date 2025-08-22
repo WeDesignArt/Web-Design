@@ -959,13 +959,14 @@ html {
 
   .section-4 p {
     font-size: 12px;
-    padding-top: 0px;
+    text-align: center;
   }
 
   .btn-learnmore {
-    padding: 7px 45px;
-    font-size: 8px;
-    text-align: center;
+    padding: 14px 45px;
+    font-size: 10px;
+    /* text-align: center; */
+    margin-left: 30%;
   }
 
   /*---------------- Section - 05 ---------------------------*/
@@ -981,6 +982,7 @@ html {
   .section-5 p {
     font-size: 12px;
     padding-top: 0px;
+    text-align: center;
   }
 
 
@@ -1348,7 +1350,7 @@ html {
 
   .section-03 p {
     font-size: 11px;
-    margin-top: -40px;
+   
   }
 
   .logo-img {
@@ -1380,7 +1382,7 @@ html {
 
   .section-4 p {
     font-size: 12px;
-    padding-top: 0px;
+    
   }
 
   .btn-learnmore {
