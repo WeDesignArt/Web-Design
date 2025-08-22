@@ -892,7 +892,7 @@ html {
 
   .card-title {
     font-size: 15px;
-    text-align: center;
+    text-align: start;
   }
 
   .card-text {
@@ -921,7 +921,7 @@ html {
 
   .section-03 p {
     font-size: 11px;
-    margin-top: -40px;
+    margin-top: 0;
   }
     .logo-img {
         height: 75px;
@@ -940,7 +940,7 @@ html {
   /*---------------- Section - 04 ---------------------------*/
 
   .fg-img {
-    width: 325px;
+    width: 375px;
     height: 300px;
     padding-left: 10%;
     padding-bottom: 4%;
@@ -985,7 +985,7 @@ html {
 
 
     .section-05-img {
-        width: 325px;
+        width: 327px;
         height: 300px;
     }
 
@@ -1134,7 +1134,7 @@ html {
 
   .footer-logo-info {
     margin-bottom: 5%;
-    text-align: center;
+    text-align: start;
   }
 
   .footer-logo-info i {
@@ -1159,7 +1159,7 @@ html {
     font-size: 13px;
   }
   .footer-section{
-    text-align: center;
+    text-align: start;
   }
 
 
@@ -1603,11 +1603,11 @@ html {
   }
 
   .section-3-text h1 {
-    font-size: 15px;
+    font-size: 25px;
   }
 
   .section-03 p {
-    font-size: 10px;
+    font-size: 12px;
   }
 
   /* ===========================================================================================================*/
@@ -1671,15 +1671,16 @@ html {
         margin-top: 3%;
         padding-top: 135px;
         height: 444px;
-        margin-bottom: 80px;
+        margin-bottom: 240px;
     }
         .logo-img {
-        height: 70px;
-        width: 70px;
+        height: 80px;
+        width: 80px;
         margin-top: -39px;
+        margin-bottom: 5px;
     }
     .section-05-img {
-        width: 325px;
+        width: 375px;
         height: 300px;
     }
     .section-05-img {
