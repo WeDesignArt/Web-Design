@@ -1090,6 +1090,11 @@ html {
     padding-bottom: 50px;
   }
 
+  .section-8-sm .card{
+    width: 107%;
+  }
+
+
   .section-8-sm h6 {
     font-size: 14px;
     color: #52585b;
