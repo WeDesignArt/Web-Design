@@ -138,18 +138,6 @@ i {
 
 
 
-.section-03 h1 {
-  color: #161e6d;
-  font-size: 45px;
-}
-
-.section-03 p {
-  font-size: 25px;
-  color: #52585b;
-}
-
-
-
 /* ========================================== Section-02 =======================================================*/
 
 .section-02 {
@@ -239,7 +227,22 @@ i {
 }
 
 
+.section-03 h1 {
+  color: #161e6d;
+  font-size: 45px;
+  font-family: 'AvenirNextLTPro';
+}
+.section-3-text h1{
+  color: #161e6d;
+  font-size: 45px;
+  font-family: 'AvenirNextLTPro';
+  font-weight: 600;
+}
 
+.section-03 p {
+  font-size: 25px;
+  color: #52585b;
+}
 
 /* ========================================== Section-04 =======================================================*/
 
